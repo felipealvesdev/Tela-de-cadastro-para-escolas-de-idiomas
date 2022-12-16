@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulario</title>
+</head>
+<body>
+    <div class="containerMaior">
+
+        <h1>Cadastre-se em nosso site</h1>
+
+        <form action="" id="registro">
+            <div class="caixaToda">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="caixaMetade espacamento">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="caixaMetade">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+
+            <div class="caixaMetade espacamento">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="caixaMetade">
+                <label for="senhaConfirm">Senha</label>
+                <input type="password" name="senhaConfirm" id="senhaConfirm" placeholder="Repita sua senha">
+            </div>
+
+            <div class="caixaToda">
+                <input type="checkbox" name="termos" id="termos" placeholder="#">
+                <label for="termos" id="termosLabel">Eu li e aceito os <a href="#">termos de uso</a></label>
+            </div>
+            
+            <div class="caixaToda">
+                <input type="submit" name="botaoSubmit" id="botaoSubmit" value="Registrar">
+            </div>
+
+            
+        </form>
+    </div>
+    <p class="erroDeValidacao"></p>
+    <script src="./script.js"></script>    
+</body>
+</html>
